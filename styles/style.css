@@ -3,32 +3,29 @@
 }
 
 
-h1 {
+h1{
   text-align: center;
-  text-shadow: 2px 2px 5px rgb(5, 1, 20);
-  font-size: 1.5em;
-  font-family: 'Times New Roman', Times, serif;
-  color:rgb(199, 255, 243);
-  margin-left: auto;
-  margin-right: auto;
-  width: 48%;
-  background-color: rgba(170, 117, 36, 0.822);
-  border-radius: 10px;
+  margin-top: 90px;
+  font-size: 2em; 
+  font-family: 'Courgette'
+
+ 
 }
 
-h2,article {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 48%;
-  background-color: rgba(128, 250, 7, 0.945);opacity:0.8;
-  border-style: solid;
-  box-shadow: 7px 8px 10px black;
-  border-radius: 10px;
-  animation-name: change;
-  animation-duration: 4s;
-  
+h2 {
+text-align: center;
+font-size: 1em;
+color: white;
+margin-left: 480px ;
+margin-top: 340px ;
+font-size: 1.5em;
+border-radius: 10px;
+background: #000000;
+border-style: solid;
+height: 70px;
+width: 185px;
 }
+
 
 
 @keyframes change{
@@ -61,10 +58,189 @@ p {
   
 }
 
-article:hover {
 
-  width: 30em;
-  background-color: blueviolet;
-  border-style: dashed;
-  opacity: 1.0;
+.figuur {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 20%;
+  border: 3px solid #000000;
+  padding: 7px;
+  box-shadow: 7px 8px 10px black;
+
+  } 
+
+  .fotolijst {
+
+    margin-top: -900px;
+    margin-bottom: 140px;
+    margin-right: -400px;
+    margin-left: 480px ;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 10px;
+  }
+
+  article{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  border: 5px solid #000000;
+  padding: 7px;
+  box-shadow: 7px 8px 10px black;
+  background: url(/assets/geraamte.png);
+  width: 700px;
+  height:600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px 480px;
+  background-color: linear-gradient(yellow,green); 
+  }
+
+  .button {
+    position: relative;
+    background-color: #fbff15;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: none;
+    color: rgb(228, 26, 26);
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+  }
+
+  .button1 {
+    bottom: 52px;
+    left: 35px;
+  }
+
+  .button1:hover {
+
+    background-color: rgb(0, 0, 0);
+    color:white;
+  }
+
+  .button2 {
+    bottom: 153px;
+    left: -22px;
+  }
+
+  .button2:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+  }
+
+
+  .button3 {
+    bottom: 153px;
+    left: -297px;
+  }
+
+  .button3:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+  }
+
+  .button4 {
+    bottom: 292px;
+    left: -354px;
+  }
+
+  .button4:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+  }
+
+  .button5 {
+    bottom:292px;
+    left:-188px;
+  }
+
+  .button5:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+  }
+
+  .button6 {
+    bottom: 377px;
+    left: -245px;
+  }
+
+  .button6:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+  }
+
+  .button7 {
+    bottom: 377px;
+    left: -453px;
+  }
+
+  .button7:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+  }
+
+  .button8 {
+    bottom: 525px;
+    left: 151px;
+  }
+
+  .button8:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+  }
+
+  .button9 {
+    bottom: 524px;
+    left: 482px;
+  }
+
+  .button9:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+  }
+
+  .container {
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  border: 5px solid #000000;
+  padding: 7px;
+  box-shadow: 7px 8px 10px black;
+  width: 700px;
+  height:600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px 480px;
+  background-color: antiquewhite;
+  }
+
+  .groningen {
+
+    padding-left: 40px;
+    padding-block: 40px;
+  }
+
+
 }
